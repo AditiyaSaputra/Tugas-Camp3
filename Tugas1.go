@@ -9,23 +9,23 @@ func main() {
 	data := make(map[string]int)
 
 	// Menambahkan data ke dalam map
-	data["John"] = 21
-	data["Jane"] = 18
-	data["Bob"] = 20
+	data["Yeremia"] = 21
+	data["Alice"] = 18
+	data["Aditiya"] = 20
 
 	// Mengakses data dalam map
-	umurJohn := data["John"]
-	umurJane := data["Jane"]
-	umurBob := data["Bob"]
+	umurJohn := data["Yeremia"]
+	umurJane := data["Alice"]
+	umurBob := data["Aditiya"]
 
 	// Cetak data dalam map
-	fmt.Printf("Umur John: %d\n", umurJohn)
-	fmt.Printf("Umur Jane: %d\n", umurJane)
-	fmt.Printf("Umur Bob: %d\n", umurBob)
+	fmt.Printf("Umur Yeremia: %d\n", umurJohn)
+	fmt.Printf("Umur Alice: %d\n", umurJane)
+	fmt.Printf("Umur Aditiya: %d\n", umurBob)
 
 	// Menghapus data dari map
-	delete(data, "Jane")
+	delete(data, "Alice")
 
 	// Cetak data setelah menghapus
-	fmt.Println("Data setelah menghapus Jane:", data)
+	fmt.Println("Data setelah menghapus Alice:", data)
 }

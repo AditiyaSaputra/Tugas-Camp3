@@ -42,8 +42,8 @@ func main() {
 	// Membuat objek Kendaraan
 	kendaraan := Kendaraan{
 		Merek: "Honda",
-		Model: "Mega Pro",
-		Tahun: 2012,
+		Model: "Beat",
+		Tahun: 2022,
 	}
 
 	// Memanggil method Informasi pada objek Kendaraan
